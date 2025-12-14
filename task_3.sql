@@ -1,6 +1,5 @@
--- Switch to the database passed as argument
--- (The database will be specified in the mysql command)
-USE ${DB_NAME};
+-- Switch to the alx_book_store database
+USE alx_book_store;
 
 -- List all tables in the database
 SHOW TABLES;
